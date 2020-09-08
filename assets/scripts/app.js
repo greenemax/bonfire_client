@@ -13,21 +13,19 @@ $(() => {
       $('.odd').show()
     })
   })
-})
 
-$(() => {
   $(document).ready(function () {
     $('#button_even').click(function () {
       $('.odd').hide()
       $('.even').show()
     })
   })
-})
 
-$(() => {
   $(document).ready(function () {
     $('#button_all').click(function () {
       $('.flex-item').show()
     })
   })
+
+
 })
