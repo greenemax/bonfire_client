@@ -15,6 +15,8 @@ $(() => {
       $('#button_odd').css('color', '#696579')
       $('#button_even').css('background', '#696579')
       $('#button_even').css('color', '#fdecca')
+      $('#button_all').css('color', '#fdecca')
+      $('#button_all').css('background', '#696579')
     })
   })
 
