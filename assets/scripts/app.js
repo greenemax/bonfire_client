@@ -22,8 +22,8 @@ $(() => {
 
   $(document).ready(function () {
     $('#button_even').click(function () {
-      $('.odd').hide()
       $('.even').show()
+      $('.odd').hide()
       $('#button_even').css('background', '#fdecca')
       $('#button_even').css('color', '#696579')
       $('#button_odd').css('color', '#fdecca')
@@ -35,6 +35,8 @@ $(() => {
 
   $(document).ready(function () {
     $('#button_all').click(function () {
+      $('.odd').show()
+      $('.even').show()
       $('#button_all').css('background', '#fdecca')
       $('#button_all').css('color', '#696579')
       $('#button_odd').css('color', '#fdecca')

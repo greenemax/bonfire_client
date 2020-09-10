@@ -4,11 +4,8 @@
 <head>
   <title>Bonfire</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Do not add `link` tags-->
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
-  <!-- Do not add `script` tags-->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro" rel="stylesheet">
   <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
   <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
 </head>
@@ -16,13 +13,14 @@
 <body>
   <img src="mtn.jpg" alt="Mountains">
   <header class="header">
+    <div class="logo">LOGO<span class="design">DESIGN</span></div>
     <ul class="navigation">
       <li><a href="#">Home</a></li>
       <li><a href="#">Away</a></li>
     </ul>
     <h1 class="title">Why Hello There</h1>
-    <p class="title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-      type specimen book.</p>
+    <div class="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br/> when an unknown printer took a galley of type and scrambled it<br/> to make a
+      type specimen book.</div>
     <div class="button_section">
       <button id="button_all" class="button">Show All</button>
       <button id="button_even" class="button">Show Even</button>
@@ -30,28 +28,38 @@
     </div>
   </header>
 
-  <ul class="flex-container">
-    <li class="flex-item odd">
-      <h6>BOX NUMBER 1</h6>
-    </li>
-    <li class="flex-item even">
-      <h6>BOX NUMBER 2</h6>
-    </li>
-    <li class="flex-item odd">
-      <h6>BOX NUMBER 3</h6>
-      <span class="subtext">USELESS SUBTEXT</span>
-      <a class="case" href="#">VIEW THE CASE STUDY</a>
-    </li>
-    <li class="flex-item even">
-      <h6>BOX NUMBER 4</h6>
-    </li>
-    <li class="flex-item odd">
-      <h6>BOX NUMBER 5</h6>
-    </li>
-    <li class="flex-item even">
-      <h6>BOX NUMBER 6</h6>
-    </li>
-  </ul>
+  <div class="flex-container">
+    <div class="flex-item odd">
+      <h2>BOX NUMBER 1</h2>
+      <div class="subtext" >USELESS SUBTEXT<br/><br/><br/>
+      <a class="case" href="#">VIEW THE CASE STUDY</a></div>
+    </div>
+    <div class="flex-item even">
+      <h2>BOX NUMBER 2</h2>
+      <div class="subtext" >USELESS SUBTEXT<br/>
+      <a class=" case" href="#">VIEW THE CASE STUDY</a></div>
+    </div>
+    <div class="flex-item odd">
+      <h2>BOX NUMBER 3</h2>
+      <div class="subtext" >USELESS SUBTEXT<br/>
+      <a class=" case" href="#">VIEW THE CASE STUDY</a></div>
+    </div>
+    <div class="flex-item even">
+      <h2>BOX NUMBER 4</h2>
+      <div class="subtext" >USELESS SUBTEXT<br/>
+      <a class=" case" href="#">VIEW THE CASE STUDY</a></div>
+    </div>
+    <div class="flex-item odd">
+      <h2>BOX NUMBER 5</h2>
+      <div class="subtext" >USELESS SUBTEXT<br/>
+      <a class=" case" href="#">VIEW THE CASE STUDY</a></div>
+    </div>
+    <div class="flex-item even">
+      <h2>BOX NUMBER 6</h2>
+      <div class="subtext" >USELESS SUBTEXT<br/>
+      <a class="case" href="#">VIEW THE CASE STUDY</a></div>
+    </div>
+  </div>
 </body>
 
 </html>
